@@ -91,11 +91,11 @@ class FuzzySearch {
    ══════════════════════════════════════════ */
 class ReLibrary {
   constructor() {
-    this.id      = "ReLib";
-    this.name    = "Re:Library";
+    this.id      = "ReLib+";
+    this.name    = "Re:Library+";
     this.icon    = "src/en/relibrary/icon.png";
     this.site    = "https://re-library.com";
-    this.version = "1.0.3";
+    this.version = "1.0.4";
 
     this.imageRequestInit = {
       headers: { Referer: "https://re-library.com/" },
